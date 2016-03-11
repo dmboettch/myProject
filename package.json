@@ -1,0 +1,22 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "Final project for Weblab 2016\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[L\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmboettch/myProject.git"
+  },
+  "author": "Deanne Boettcher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmboettch/myProject/issues"
+  },
+  "homepage": "https://github.com/dmboettch/myProject#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

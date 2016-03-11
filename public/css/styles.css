@@ -1,0 +1,8 @@
+body{
+    /*display: flex;  took out because 100vh works the same*/
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+}

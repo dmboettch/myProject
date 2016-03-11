@@ -1,8 +1,65 @@
+/* public/cdd/styles.css */
+
 body{
-    /*display: flex;  took out because 100vh works the same*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    width: 100%;
+    /*width: 100%;*/
     background-color: #000;
     color: #fff;
     font-size: 30px;
 }
+
+.container{
+    background-color: #ff24ea;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.navbar{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+}
+
+ul{
+
+}
+
+ul, li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+    display: inline;
+    background-color: #3b3b3b;
+}
+ul:after{   /*sometimes uses :: but not all browsers recognize it insert after ul*/
+    /*need to do this to identify the ul because we are using a float*/
+    content: "";
+    clear: both;
+    height: 0;
+    width: 0;
+    display: block;
+}
+li a {
+    display: block;      /*Display link as a block to make area clickable*/
+    background-color: #3b3b3b;
+    color: #fff;
+    /*width: 100%;*/
+    /*height: 20px;*/
+    font-size: 15px;
+    text-decoration: none;  /*removes underline from link*/
+    padding: 8px;     /*padding around link*/
+}
+
+li a:hover{
+    background-color: #000;

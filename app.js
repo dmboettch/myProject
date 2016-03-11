@@ -39,12 +39,6 @@ app.get('/contact', function(req,res){
     res.render('pages/contact');
 });
 
-
-
-
-
-console.log('Hello');
-
 app.listen(port, function(){
     console.log('Example app listening on port' + port);
 });

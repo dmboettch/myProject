@@ -6,29 +6,26 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /*width: 100%;*/
     background-color: #000;
     color: #fff;
-    font-size: 30px;
 }
 
 .container{
-    background-color: #ff24ea;
+    /*background-color: #fe85ff;*/
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
 }
 
-.navbar{
-    background-color: yellow;
+.farm{
     display: flex;
-    justify-content: space-between;
-    /*padding-left: 10px;*/
-    /*padding-right: 10px;*/
+    justify-content: center;
 }
 
-ul{
-
+.navbar{
+    /*background-color: yellow;*/
+    display: flex;
+    justify-content: center;
 }
 
 ul, li{
@@ -56,9 +53,9 @@ li a {
     color: #fff;
     /*width: 100%;*/
     /*height: 20px;*/
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;  /*removes underline from link*/
-    padding: 8px;     /*padding around link*/
+    padding: 20px;     /*padding around link*/
 }
 
 li a:hover{

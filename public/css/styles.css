@@ -53,7 +53,7 @@ ul:after{   /*sometimes uses :: but not all browsers recognize it insert after u
 }
 li a {
     width: 100%;
-    display: flex;      /*Display link as a block to make area clickable*/
+    display: flex;
     background-color: #3b3b3b;
     color: #fff;
     font-size: 16px;
@@ -78,16 +78,6 @@ li a:hover {
     height: 100%;
 }
 
-.garden *{
-        padding: 0;
-        margin: 0;
-    }
-.garden body {
-    font-family: sans-serif;
-}
-.garden img {
-    max-width: 100%;
-}
 /* cycle-slideshow */
 .cycle-slideshow {
     width: 100%;

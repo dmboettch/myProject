@@ -11,34 +11,22 @@
     <!-- Include the header of the page -->
     <% include ../partials/header.ejs %>
 </header>
-<div class="garden"></div>
+<div class="garden">
 <h2>Garden</h2>
 
+<!-- Begin Responsive Carousel -->
 
-
-<div id="carousel">
-    <div id="buttons">
-        <a href="#" id="prev">prev</a>
-        <a href="#" id="next">next</a>
-        <div class="clear"></div>
-    </div>
-
-    <div class="clear"></div>
-
-    <div id="slides">
-        <ul>
-            <li><img src="/css/sunflower.jpg" width="240" height="240" alt="Sunflower"/></li>
-            <li><img src="/css/homeBckgrd.jpg" width="240" height="240" alt="Home"/></li>
-            <!--<li><img src="slide3.gif" width="240" height="240" alt="Slide 3"/></li>-->
-        </ul>
-        <div class="clear"></div>
-    </div>
-
+<div class="cycle-slideshow">
+    <span class="cycle-prev">&#9001;</span>
+    <span class="cycle-next">&#9002;</span>
+    <span class="cycle-pager"></span>
+    <img src="css/homeBckgrd.jpg" alt="Home">
+    <img src="css/sunflower.jpg" alt="Sunflower">
+    <img src="css/slide1.gif" alt="Slide 1">
+    <img src="css/slide2.gif" alt="Slide 2">
 </div>
-
-
-
-<script type="text/javascript" src="garden.js"></script>
+</div>
+ <!--End Responsive Carousel -->
 </body>
 
 </html>

@@ -11,24 +11,22 @@ body{
     font-family: sans-serif;
 }
 
+/* Start Header Page */
 .container{
     /*background-color: #fe85ff;*/
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
 }
-
 .farm{
     display: flex;
     justify-content: center;
 }
-
 .navbar{
     /*background-color: yellow;*/
     display: flex;
     justify-content: center;
 }
-
 ul, li{
     display: flex;
     width: 100vw;
@@ -36,7 +34,6 @@ ul, li{
     margin: 0;
     padding: 0;
 }
-
 li{
     float: left;
     display: flex;
@@ -65,11 +62,12 @@ li a {
     flex: 1;
 
 }
-
 li a:hover {
     background-color: #000;
 }
+/* End Header Page */
 
+/* Start Home Page*/
 .home{
     background: url(homeBckgrd.jpg);
     background-size: cover;
@@ -83,7 +81,10 @@ li a:hover {
     margin-right: auto;
     width: 70%;
     margin-bottom: 0;
-    }
+}
+/* End Home Page*/
+
+/* Start Garden Page */
 .garden{
     display: flex;
     flex-direction: column;
@@ -92,7 +93,8 @@ li a:hover {
 /* cycle-slideshow */
 .cycle-slideshow {
     width: 100%;
-    max-width: 960px;
+    max-width: 448px;
+    max-height: 336px;
     display: block;
     position: relative;
     margin: 20px auto;
@@ -135,6 +137,7 @@ li a:hover {
 .cycle-pager .cycle-pager-active {
     background-color: #fff;
 }
+/* End Garden Page */
 
 .fowl{
 

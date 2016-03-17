@@ -134,22 +134,24 @@ li a:hover {
 /* End sting Page */
 
 /* Start shop Page */
-.shop{
+.shop {
     width: 80%;
     margin: 30px auto;
-    overflow: hidden;
 }
 .shopPics {
-    color: #797478;
     float: left;
-    width: 21%;
-    margin:  2% 2% 50px 2%;
-}
+    width: 17%;
+    margin:  2% 2% 2% 2%;
+    border-style: solid;
+    border-color: grey;
+    padding: 10px;
 
-.shopPics h3 {
+}
+.shopTitle, .price {
     text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
 }
-
 .shopPics img {
     max-width: 100%;
     -webkit-border-radius: 5px;

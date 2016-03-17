@@ -83,6 +83,12 @@ li a:hover {
 }
 /* End Home Page*/
 
+/* Start fowl Page*/
+.fowl{
+
+}
+/* End fowl Page */
+
 /* Start Garden Page */
 .garden{
     display: flex;
@@ -110,25 +116,50 @@ li a:hover {
 }
 /* End Garden Page */
 
-.fowl{
-
-}
-
-.contact{
-
-}
-
-.herd{
-
-}
-
+/* Start pest Page */
 .pest{
 
 }
+/* End pest Page */
 
-.shop{
+/* Start herd Page */
+.herd{
 
 }
+/* End herd Page */
 
+/* Start sting Page */
 .sting {
 }
+/* End sting Page */
+
+/* Start shop Page */
+.shop{
+    width: 80%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.shopPics {
+    color: #797478;
+    float: left;
+    width: 21%;
+    margin:  2% 2% 50px 2%;
+}
+
+.shopPics h3 {
+    text-transform: uppercase;
+}
+
+.shopPics img {
+    max-width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+/* End shop Page */
+
+/* Start contact Page */
+.contact{
+
+}
+/* End contact Page */

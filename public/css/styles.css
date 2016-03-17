@@ -24,42 +24,42 @@ body{
 .navbar {
     /*background-color: yellow;*/
     /*display: flex;*/
-    justify-content: center;
+    /*justify-content: center;*/
 }
 ul, li{
     display: flex;
     width: 100vw;
-    list-style-type: none;
-    margin: 0;
+    /*list-style-type: none;*/
+    margin: 0 auto 0 auto;
     padding: 0;
 }
 li{
-    float: left;
-    display: flex;
-    align-items: center;
+    /*float: left;*/
+    /*display: flex;*/
+    /*align-items: center;*/
     background-color: #3b3b3b;
     text-align: center;
 }
-ul:after{   /*sometimes uses :: but not all browsers recognize it insert after ul*/
-    /*need to do this to identify the ul because we are using a float*/
-    content: "";
-    clear: both;
-    height: 0;
-    width: 0;
-    display: block;
-}
+/*ul:after{   !*sometimes uses :: but not all browsers recognize it insert after ul*!*/
+    /*!*need to do this to identify the ul because we are using a float*!*/
+    /*content: "";*/
+    /*clear: both;*/
+    /*height: 0;*/
+    /*width: 0;*/
+    /*display: block;*/
+/*}*/
 li a {
-    width: 100%;
-    display: flex;
+    /*width: 100%;*/
+    /*display: flex;*/
     background-color: #3b3b3b;
     color: #fff;
     font-size: 16px;
     text-decoration: none;  /*removes underline from link*/
     padding: 20px;     /*padding around link*/
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*flex: 1;*/
+    margin: auto;
 }
 li a:hover {
     background-color: #000;

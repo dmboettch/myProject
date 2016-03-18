@@ -13,10 +13,6 @@ body{
 }
 
 /* Start Header Page */
-.container{
-    /*flex: 1 1 auto;*/
-    /*flex-direction: column;*/
-}
 .farm{
     display: flex;
     justify-content: center;
@@ -26,40 +22,34 @@ body{
     /*display: flex;*/
     /*justify-content: center;*/
 }
-ul, li{
+ul{
     display: flex;
-    width: 100vw;
-    /*list-style-type: none;*/
-    margin: 0 auto 0 auto;
+    flex-wrap: wrap;
     padding: 0;
+    margin: auto;
 }
 li{
-    /*float: left;*/
-    /*display: flex;*/
-    /*align-items: center;*/
+    display: flex;
+    flex: 1;
     background-color: #3b3b3b;
-    text-align: center;
+    border-style: solid;
 }
-/*ul:after{   !*sometimes uses :: but not all browsers recognize it insert after ul*!*/
-    /*!*need to do this to identify the ul because we are using a float*!*/
-    /*content: "";*/
-    /*clear: both;*/
-    /*height: 0;*/
-    /*width: 0;*/
-    /*display: block;*/
-/*}*/
+ul:after{   /*sometimes uses :: but not all browsers recognize it insert after ul*/
+    /*need to do this to identify the ul because we are using a float*/
+    content: "";
+    clear: both;
+    height: 0;
+    width: 0;
+    display: block;
+}
 li a {
-    /*width: 100%;*/
-    /*display: flex;*/
     background-color: #3b3b3b;
     color: #fff;
     font-size: 16px;
-    text-decoration: none;  /*removes underline from link*/
-    padding: 20px;     /*padding around link*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*flex: 1;*/
+    text-decoration: none;
+    padding: 10px;
     margin: auto;
+    text-align: center;
 }
 li a:hover {
     background-color: #000;
@@ -70,8 +60,6 @@ li a:hover {
 .home{
     background: url(homeBckgrd.jpg);
     background-size: cover;
-    display: flex;
-    flex-direction: column;
     height: 100%;
     text-align: center;
 }
@@ -104,9 +92,13 @@ li a:hover {
     height: 100%;
     overflow: hidden;
 }
-.cover{
-    object-fit: cover;
-}
+/*.cycle-slideshow img{*/
+    /*width: 100%;*/
+    /*height: auto;*/
+/*}*/
+/*.cover{*/
+    /*object-fit: cover;*/
+/*}*/
 #adv-custom-pager.center.external a {
     margin: 0 5px;
 }
@@ -162,6 +154,31 @@ li a:hover {
 
 /* Start contact Page */
 .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    display: block;
+}
+fieldset {
+    border:0;
+}
+form{
+    border: 1px solid #ccc;
 
+}
+fieldset .errorMsg, fieldset .emailErrorMsg{
+    display: none;
+    color: red;
+    font-size: 10px;
+    line-height: 1;
+}
+fieldset.error .errorMsg, fieldset.emailError .emailErrorMsg{
+    display: inline;
+}
+fieldset.error input{
+    border: 1px solid red;
 }
 /* End contact Page */

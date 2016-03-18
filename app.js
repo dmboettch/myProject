@@ -57,7 +57,7 @@ app.get('/shop', function(req,res){
 });
 
 app.get('/contact', function(req,res){
-    var title = 'Contact';
+    var title = 'Contact Form';
     res.render('pages/contact',{
         title: title
     });

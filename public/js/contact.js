@@ -32,6 +32,7 @@ $(function() {
 
         // loop over the input fields and check them for a value
         $.each($('input:text'), function(i, val) {
+            console.log(this);
             if($(val).val() === '') {
                 // no value?  Add an error class.
                 $(val).parent().addClass('error');
@@ -54,7 +55,7 @@ $(function() {
         }
 
         // check the return value of the emailChecker function which is defined furtner down.
-        if(!emailChecker()){
+        if(!emailChecker($('#emailAddr').val())){
             //if the email is invalid:
             console.log('invalid email');
             $('#emailAddr').parent().addClass('emailError');
@@ -74,4 +75,10 @@ $(function() {
             return false;
         }
     }
+
+    function emailChecker(email){
+        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
+
 });

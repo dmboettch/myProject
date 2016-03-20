@@ -15,10 +15,10 @@ app.get('/', function(req,res){
     });
 });
 
-app.get('/fowl', function(req,res){
-    res.render('pages/fowl',{
-        title: 'Barnyard Fowl',
-        pageTitle: 'Barnyard'
+app.get('/turkey', function(req,res){
+    res.render('pages/turkey',{
+        title: 'Turkey',
+        pageTitle: 'Turkey'
     });
 });
 
@@ -36,10 +36,10 @@ app.get('/pest', function(req,res){
     });
 });
 
-app.get('/herd', function(req,res){
-    res.render('pages/herd',{
-        title: 'Herders',
-        pageTitle: 'Dogs'
+app.get('/chicken', function(req,res){
+    res.render('pages/chicken',{
+        title: 'Chicken',
+        pageTitle: 'Chicken'
     });
 });
 

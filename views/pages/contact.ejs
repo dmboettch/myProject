@@ -13,8 +13,10 @@
     <% include ../partials/header.ejs %>
 </header>
 <div class="contact"></div>
-    <h1>Contact Us</h1>
-    <form class="" action="pages/contact" method="post" novalidate>
+    <!--<h1>Contact Us</h1>-->
+    <h1 class="pageTitle"><%= pageTitle %></h1>
+
+<form class="" action="pages/contact" method="post" novalidate>
         <fieldset>
             <label for="firstName">First Name</label>
             <input type="text" name="firstName" id="firstName">

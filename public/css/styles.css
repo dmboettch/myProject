@@ -11,6 +11,9 @@ body{
     color: #000;
     font-family: sans-serif;
 }
+.pageTitle{
+    text-align: center;
+}
 
 /* Start Header Page */
 .farm{

@@ -1,5 +1,6 @@
 var express = require('express');
 var request = require('request');
+var sendmail = require('sendmail')();
 var port = 3000;
 var app = express();
 
@@ -8,58 +9,58 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.get('/', function(req,res){
-    var title = 'Farm';
     res.render('pages/index',{
-        title: title
+        title: 'Farm',
+        pageTitle: 'About Us'
     });
 });
 
 app.get('/fowl', function(req,res){
-    var title = 'Barnyard Fowl';
     res.render('pages/fowl',{
-        title: title
+        title: 'Barnyard Fowl',
+        pageTitle: 'Barnyard'
     });
 });
 
 app.get('/garden', function(req,res){
-    var title = 'Garden';
     res.render('pages/garden',{
-        title: title
+        title: 'Garden',
+        pageTitle: 'The Garden!'
     });
 });
 
 app.get('/pest', function(req,res){
-    var title = 'Pest Control';
     res.render('pages/pest',{
-        title: title
+        title: 'Pest Control',
+        pageTitle: 'Mousers'
     });
 });
 
 app.get('/herd', function(req,res){
-    var title = 'Herders';
     res.render('pages/herd',{
-        title: title
+        title: 'Herders',
+        pageTitle: 'Dogs'
     });
 });
 
 app.get('/sting', function(req,res){
-    var title = 'Stingers';
     res.render('pages/sting',{
-        title: title
+        title: 'Stingers',
+        pageTitle: 'Bees'
     });
 });
 
 app.get('/shop', function(req,res){
-    var title = 'Shopping';
     res.render('pages/shop',{
-        title: title
+        title: 'Shopping',
+        pageTitle: 'Shopping'
     });
 });
 
 app.get('/contact', function(req,res){
-    var title = 'Contact Form';
     res.render('pages/contact',{
-        title: title
+        title: 'Contact Form',
+        pageTitle: 'Contact Form'
     });
 });
 

@@ -136,24 +136,27 @@ li a:hover {
     margin: 30px auto;
 }
 .shopPics {
-    float: left;
-    width: 17%;
     margin:  2% 2% 2% 2%;
     border-style: solid;
     border-color: grey;
     padding: 10px;
-
+    display: inline-block;
 }
 .shopTitle, .price {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+    margin: auto;
 }
-.shopPics img {
-    max-width: 100%;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+.shopPics img{
+    max-width: 20%;
     border-radius: 5px;
+    float: left;
+}
+.shopPics a{
+}
+.shopPics p{
+    text-align: center;
 }
 /* End shop Page */
 

@@ -95,13 +95,13 @@ li a:hover {
     height: 100%;
     overflow: hidden;
 }
-/*.cycle-slideshow img{*/
-    /*width: 100%;*/
-    /*height: auto;*/
-/*}*/
-/*.cover{*/
-    /*object-fit: cover;*/
-/*}*/
+.pause{
+    border-radius: 5px;
+    background: rgba(173, 216, 230, 0.21);
+    color: rgba(0, 124, 255, 0.55);
+    margin: auto;
+    width: 150px;
+}
 #adv-custom-pager.center.external a {
     margin: 0 5px;
 }

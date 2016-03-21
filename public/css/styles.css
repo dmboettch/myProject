@@ -99,8 +99,10 @@ li a:hover {
     border-radius: 5px;
     background: rgba(173, 216, 230, 0.21);
     color: rgba(0, 124, 255, 0.55);
+    font-size: smaller;
+    text-transform: uppercase;
     margin: auto;
-    width: 150px;
+    width: 275px;
 }
 #adv-custom-pager.center.external a {
     margin: 0 5px;
@@ -159,7 +161,6 @@ li a:hover {
 .contact{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 label{

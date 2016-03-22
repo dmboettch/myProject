@@ -1,7 +1,7 @@
 var express = require('express');
 var request = require('request');
 var sendmail = require('sendmail')();
-var port = 3000;
+var port = process.env.PORT || 3000;
 var app = express();
 
 app.set('view engine', 'ejs');

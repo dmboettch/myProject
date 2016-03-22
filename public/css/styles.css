@@ -140,13 +140,14 @@ li a:hover {
     border-style: solid;
     border-color: grey;
     padding: 10px;
-    display: inline-block;
+    min-height: 100px;
 }
 .shopTitle, .price {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
     margin: auto;
+    padding-left: 25%;
 }
 .shopPics img{
     max-width: 20%;
@@ -154,9 +155,11 @@ li a:hover {
     float: left;
 }
 .shopPics a{
+
 }
 .shopPics p{
     text-align: center;
+    padding-left: 25%;
 }
 /* End shop Page */
 

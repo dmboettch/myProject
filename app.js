@@ -3,9 +3,9 @@ var request = require('request');
 var sendmail = require('sendmail')();
 var app = express();
 
-var port = 3000;
+//var port = 3000;
 //activate for Heroku
-//var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 //set public static files (for css)

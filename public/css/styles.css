@@ -71,6 +71,7 @@ li a:hover {
     margin-right: auto;
     width: 70%;
     margin-bottom: 0;
+    font-size: x-large;
 }
 /* End Home Page*/
 
@@ -136,30 +137,32 @@ li a:hover {
     margin: 30px auto;
 }
 .shopPics {
-    margin:  2% 2% 2% 2%;
     border-style: solid;
     border-color: grey;
     padding: 10px;
     min-height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
 .shopTitle, .price {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
     margin: auto;
-    padding-left: 25%;
 }
 .shopPics img{
-    max-width: 20%;
+    max-width: 350px;
     border-radius: 5px;
-    float: left;
 }
-.shopPics a{
-
-}
-.shopPics p{
+.description{
     text-align: center;
-    padding-left: 25%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: x-large;
 }
 /* End shop Page */
 

@@ -1,6 +1,5 @@
 var express = require('express');
 var request = require('request');
-var sendmail = require('sendmail')();
 var app = express();
 
 //var port = 3000;

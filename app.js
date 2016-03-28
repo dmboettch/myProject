@@ -7,7 +7,7 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 //Testing mailgun
-var api_key = 'key-c5d60ef5c6bcd27e014c3898bbfb7c97';
+var api_key = 'xxx';
 var domain = 'alltruefarm.com';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 var data = {

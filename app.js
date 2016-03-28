@@ -26,7 +26,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.get('/', function(req,res){
-    res.render('pages/index',{
+    res.render('pages/home',{
         title: 'Farm',
         pageTitle: 'About Us'
     });
@@ -46,10 +46,10 @@ app.get('/garden', function(req,res){
     });
 });
 
-app.get('/pest', function(req,res){
-    res.render('pages/pest',{
-        title: 'Pest Control',
-        pageTitle: 'Mousers'
+app.get('/cat', function(req,res){
+    res.render('pages/cat',{
+        title: 'Cats',
+        pageTitle: 'Cats'
     });
 });
 
@@ -60,9 +60,9 @@ app.get('/chicken', function(req,res){
     });
 });
 
-app.get('/sting', function(req,res){
-    res.render('pages/sting',{
-        title: 'Stingers',
+app.get('/bee', function(req,res){
+    res.render('pages/bee',{
+        title: 'Bees',
         pageTitle: 'Bees'
     });
 });

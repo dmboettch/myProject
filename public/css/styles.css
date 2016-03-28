@@ -10,6 +10,7 @@ body{
     background-color: #add8e6;
     color: darkgreen;
     font-family: sans-serif;
+    font-size: x-large;
 }
 
 .container{
@@ -30,11 +31,6 @@ body{
     margin: 0;
     padding: 15px;
 }
-.navbar {
-    /*background-color: yellow;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-}
 ul{
     display: flex;
     flex-wrap: wrap;
@@ -44,8 +40,6 @@ ul{
 li{
     display: flex;
     flex: 1;
-    /*background-color: #3b3b3b;*/
-    /*border-style: solid;*/
     border-radius: 5px
 }
 ul:after{   /*sometimes uses :: but not all browsers recognize it insert after ul*/
@@ -57,9 +51,9 @@ ul:after{   /*sometimes uses :: but not all browsers recognize it insert after u
     display: block;
 }
 li a {
-    /*background-color: #3b3b3b;*/
     color: darkgreen;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
     padding: 10px;
     margin: auto;
@@ -87,11 +81,11 @@ li a:hover {
 }
 /* End Home Page*/
 
-/* Start fowl Page*/
+/* Start turkey Page*/
 .turkey{
 
 }
-/* End fowl Page */
+/* End turkey Page */
 
 /* Start Garden Page */
 .garden{
@@ -109,8 +103,6 @@ li a:hover {
     overflow: hidden;
 }
 .pause{
-    /*border-radius: 5px;*/
-    /*background: rgba(173, 216, 230, 0.21);*/
     color: darkgreen;
     font-size: x-small;
     text-transform: uppercase;
@@ -126,22 +118,22 @@ li a:hover {
 }
 /* End Garden Page */
 
-/* Start pest Page */
-.pest{
+/* Start cat Page */
+.cat{
 
 }
-/* End pest Page */
+/* End cat Page */
 
-/* Start herd Page */
+/* Start chicken Page */
 .chicken{
 
 }
-/* End herd Page */
+/* End chicken Page */
 
-/* Start sting Page */
-.sting {
+/* Start bee Page */
+.bee {
 }
-/* End sting Page */
+/* End bee Page */
 
 /* Start shop Page */
 .shop{
@@ -181,13 +173,17 @@ li a:hover {
 /* End shop Page */
 
 /* Start contact Page */
-.contact{
+form.contact{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .contactText{
     text-align: center;
+}
+
+fieldset input{
+    font-size: large;
 }
 label{
     display: block;

@@ -15,11 +15,11 @@ $(function() {
     //});
 
     //below is the sample from class
-    //var dataPackage = {
-    //    "firstName": '',
-    //    "lastName": '',
-    //    "email": '',
-    //}
+    var dataPackage = {
+        "firstName": '',
+        "lastName": '',
+        "email": '',
+    }
 
     //Below is a combination of the above two
     //var api_key = 'key-c5d60ef5c6bcd27e014c3898bbfb7c97';
@@ -87,7 +87,7 @@ $(function() {
         }
 
         //final check for the valid count.
-        if(isValid === 2) {
+        if(isValid === 4) {
             return true;
         } else {
             return false;

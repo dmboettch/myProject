@@ -7,10 +7,15 @@ body{
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-color: #fff;
-    color: #000;
+    background-color: #add8e6;
+    color: darkgreen;
     font-family: sans-serif;
 }
+
+.container{
+    background-color: #72b3e6;
+}
+
 .pageTitle{
     text-align: center;
 }
@@ -19,6 +24,11 @@ body{
 .farm{
     display: flex;
     justify-content: center;
+    font-size: 80px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: darkgreen;
+    margin: 0;
+    padding: 15px;
 }
 .navbar {
     /*background-color: yellow;*/
@@ -34,8 +44,9 @@ ul{
 li{
     display: flex;
     flex: 1;
-    background-color: #3b3b3b;
-    border-style: solid;
+    /*background-color: #3b3b3b;*/
+    /*border-style: solid;*/
+    border-radius: 5px
 }
 ul:after{   /*sometimes uses :: but not all browsers recognize it insert after ul*/
     /*need to do this to identify the ul because we are using a float*/
@@ -46,8 +57,8 @@ ul:after{   /*sometimes uses :: but not all browsers recognize it insert after u
     display: block;
 }
 li a {
-    background-color: #3b3b3b;
-    color: #fff;
+    /*background-color: #3b3b3b;*/
+    color: darkgreen;
     font-size: 16px;
     text-decoration: none;
     padding: 10px;
@@ -55,7 +66,8 @@ li a {
     text-align: center;
 }
 li a:hover {
-    background-color: #000;
+    background-color: lightblue;
+    border-radius: 5px;
 }
 /* End Header Page */
 
@@ -97,10 +109,10 @@ li a:hover {
     overflow: hidden;
 }
 .pause{
-    border-radius: 5px;
-    background: rgba(173, 216, 230, 0.21);
-    color: rgba(0, 124, 255, 0.55);
-    font-size: smaller;
+    /*border-radius: 5px;*/
+    /*background: rgba(173, 216, 230, 0.21);*/
+    color: darkgreen;
+    font-size: x-small;
     text-transform: uppercase;
     margin: auto;
     width: 275px;
@@ -132,10 +144,12 @@ li a:hover {
 /* End sting Page */
 
 /* Start shop Page */
-.shop {
+.shop{
     width: 80%;
     margin: 30px auto;
+    text-align: center;
 }
+
 .shopPics {
     border-style: solid;
     border-color: grey;
@@ -171,6 +185,9 @@ li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.contactText{
+    text-align: center;
 }
 label{
     display: block;

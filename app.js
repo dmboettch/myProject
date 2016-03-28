@@ -12,9 +12,9 @@ var domain = 'alltruefarm.com';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 var data = {
     from: 'alltruefarm@gmail.com',
-    to: 'dmboettch@gmail.com',
+    to: 'alltruefarm@gmail.com',
     subject: 'Hello',
-    text: 'Testing some Mailgun awesomness! @ 9:06'
+    text: 'Testing some Mailgun awesomness! @ 9:34'
 };
 mailgun.messages().send(data, function (error, body) {
     console.log(body);

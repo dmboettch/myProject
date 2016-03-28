@@ -1,11 +1,39 @@
 $(function() {
-    // console.log('Hello, world!');
 
-    var dataPackage = {
-        "firstName": '',
-        "lastName": '',
-        "email": '',
-    }
+    //Below is the sample from
+    //var api_key = 'key-c5d60ef5c6bcd27e014c3898bbfb7c97';
+    //var domain = 'alltruefarm.com';
+    //var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
+    //var dataPackage = {
+    //    from: 'alltruefarm@gmail.com',
+    //    to: 'dmboettch@hotmail.com',
+    //    subject: 'Hello',
+    //    text: 'First try with changes'
+    //};
+    //mailgun.messages().send(dataPackage, function (error, body) {
+    //    console.log(body);
+    //});
+
+    //below is the sample from class
+    //var dataPackage = {
+    //    "firstName": '',
+    //    "lastName": '',
+    //    "email": '',
+    //}
+
+    //Below is a combination of the above two
+    //var api_key = 'key-c5d60ef5c6bcd27e014c3898bbfb7c97';
+    //var domain = 'alltruefarm.com';
+    //var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
+    //var dataPackage = {
+    //        "firstName": '',
+    //        "lastName": '',
+    //        "email": '',
+    //    }
+    //mailgun.messages().send(dataPackage, function (error, body) {
+    //    console.log(body);
+    //});
+
     // get control of my form to prevent it from submitting in the traditional manner
     $('form').on('submit', function(e) {
         e.preventDefault();
@@ -44,16 +72,6 @@ $(function() {
             }
         });
 
-        // check the password field  same logic
-        if($('#password').val() === '') {
-            // no value: add error class
-            $('#password').parent().addClass('error');
-        } else {
-            // value: remove class and increment the valid counter
-            $('#password').parent().removeClass('error');
-            isValid++;
-        }
-
         // check the return value of the emailChecker function which is defined furtner down.
         if(!emailChecker($('#emailAddr').val())){
             //if the email is invalid:
@@ -68,17 +86,17 @@ $(function() {
             isValid++;
         }
 
-        //final check for the valid count.  We have 5 checks, so the count has to be 5.
-        if(isValid === 4) {
+        //final check for the valid count.
+        if(isValid === 2) {
             return true;
         } else {
             return false;
         }
-    }
+    };
 
     function emailChecker(email){
         var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(email);
-    }
+    };
 
 });

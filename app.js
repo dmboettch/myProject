@@ -6,6 +6,21 @@ var app = express();
 //activate for Heroku
 var port = process.env.PORT || 3000;
 
+//Testing mailgun
+var api_key = 'key-c5d60ef5c6bcd27e014c3898bbfb7c97';
+var domain = 'alltruefarm.com';
+var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
+var data = {
+    from: 'alltruefarm@gmail.com',
+    to: 'dmboettch@gmail.com',
+    subject: 'Hello',
+    text: 'Testing some Mailgun awesomness! @ 9:06'
+};
+mailgun.messages().send(data, function (error, body) {
+    console.log(body);
+});
+
+
 app.set('view engine', 'ejs');
 //set public static files (for css)
 app.use(express.static('public'));

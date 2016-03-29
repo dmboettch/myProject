@@ -75,24 +75,24 @@ app.get('/contact', function(req,res){
 });
 
 app.post('/contact', function(req,res){
-    console.log("capture fired");
-    console.log(req.body.dataPackage);
-    var data = req.body.dataPackage;
-
     var mailOptions = {
     from: 'alltruefarm@gmail.com',
-    replyTo: data.name + '<' + data.email + '>',
+    replyTo: req.body.firstName + '' + req.body.lastName + '<' + req.body.email + '>',
     to: 'alltruefarm@gmail.com',
-    subject: 'Hello',
-    text: 'Testing some Mailgun awesomness! @ 9:08'
+    subject: req.body.subject,
+    text: 'Testing some Mailgun awesomness! @ 5:05'
     };
 
     mailgun.messages().send(mailOptions, function (error, body) {
-        console.log(error),
-        console.log(body.mailOptions)
+        if(error){
+            console.log(error)
+            return res.send('There was an error')
+        }
+        else{
+            console.log(body)
+            return res.render('pages/thankYou')
+        }
     });
-
-    //res.render('pages/thankYou');
 });
 
 app.listen(port, function(){

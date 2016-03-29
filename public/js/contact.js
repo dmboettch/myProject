@@ -3,11 +3,12 @@ $(function() {
     var dataPackage = {
         "firstName": '',
         "lastName": '',
-        "email": ''
+        "email": '',
+        "subject": ''
     };
 
     // get control of my form to prevent it from submitting in the traditional manner
-    $("contact").on("submit", function(e) {
+    $(".contact").on("submit", function(e) {
         //e.preventDefault();
         // run our validation.  Check for a true or false result.
         if(inputCheck()) {
@@ -18,6 +19,7 @@ $(function() {
             dataPackage.firstName = $('#firstName').val();
             dataPackage.lastName = $('#lastName').val();
             dataPackage.email = $('#emailAddr').val();
+            //dataPackage.subject = $('#subject').val();
         } else {
             // if the form is invalid, post a message to the console.
             e.preventDefault();

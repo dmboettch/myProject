@@ -79,16 +79,17 @@ app.post('/capture', function(req,res){
 
     var mailOptions = {
     from: 'alltruefarm@gmail.com',
+    replyTo: data.name + '<' + data.email + '>',
     to: 'alltruefarm@gmail.com',
     subject: 'Hello',
     text: 'Testing some Mailgun awesomness! @ 9:08'
     };
 
     mailgun.messages().send(mailOptions, function (error, body) {
-        console.log(body);
+        console.log(error);
     });
 
-    res.render('pages/thankYou');
+    //res.render('pages/thankYou');
 });
 
 app.listen(port, function(){

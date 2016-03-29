@@ -74,8 +74,9 @@ app.get('/contact', function(req,res){
     });
 });
 
-app.post('/capture', function(req,res){
-    console.log("apture fired");
+app.post('/contact', function(req,res){
+    console.log("capture fired");
+    console.log(req.body.dataPackage);
     var data = req.body.dataPackage;
 
     var mailOptions = {
@@ -88,6 +89,7 @@ app.post('/capture', function(req,res){
 
     mailgun.messages().send(mailOptions, function (error, body) {
         console.log(error);
+        console.log(body.mailOptions);
     });
 
     //res.render('pages/thankYou');

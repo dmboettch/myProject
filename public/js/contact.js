@@ -7,7 +7,7 @@ $(function() {
     };
 
     // get control of my form to prevent it from submitting in the traditional manner
-    $('contact').on('submit', function(e) {
+    $("contact").on("submit", function(e) {
         //e.preventDefault();
         // run our validation.  Check for a true or false result.
         if(inputCheck()) {
@@ -44,7 +44,7 @@ $(function() {
             }
         });
 
-        // check the return value of the emailChecker function which is defined furtner down.
+        // check the return value of the emailChecker function which is defined further down.
         if(!emailChecker($('#emailAddr').val())){
             //if the email is invalid:
             console.log('invalid email');

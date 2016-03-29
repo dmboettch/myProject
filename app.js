@@ -88,8 +88,8 @@ app.post('/contact', function(req,res){
     };
 
     mailgun.messages().send(mailOptions, function (error, body) {
-        console.log(error);
-        console.log(body.mailOptions);
+        console.log(error),
+        console.log(body.mailOptions)
     });
 
     //res.render('pages/thankYou');

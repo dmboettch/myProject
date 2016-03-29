@@ -1,26 +1,19 @@
 var express = require('express');
 var request = require('request');
+var http = require('http');
+var bodyParser = require('body-parser');
 var app = express();
+var auth = require('./key_auth.json');
 
 //var port = 3000;
 //activate for Heroku
 var port = process.env.PORT || 3000;
 
-//Testing mailgun
-var api_key = 'xxx';
-var domain = 'alltruefarm.com';
-var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
-var data = {
-    from: 'alltruefarm@gmail.com',
-    to: 'alltruefarm@gmail.com',
-    subject: 'Hello',
-    text: 'Testing some Mailgun awesomness! @ 9:34'
-};
-mailgun.messages().send(data, function (error, body) {
-    console.log(body);
-});
+var mailgun = require('mailgun-js')({apiKey: auth.api_key, domain: auth.domain});
 
 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false}));
 app.set('view engine', 'ejs');
 //set public static files (for css)
 app.use(express.static('public'));
@@ -79,6 +72,23 @@ app.get('/contact', function(req,res){
         title: 'Contact Form',
         pageTitle: 'Contact Form'
     });
+});
+
+app.post('/capture', function(req,res){
+    var data = req.body.dataPackage;
+
+    var mailOptions = {
+    from: 'alltruefarm@gmail.com',
+    to: 'alltruefarm@gmail.com',
+    subject: 'Hello',
+    text: 'Testing some Mailgun awesomness! @ 9:08'
+    };
+
+    mailgun.messages().send(mailOptions, function (error, body) {
+        console.log(body);
+    });
+
+    res.render('pages/thankYou');
 });
 
 app.listen(port, function(){

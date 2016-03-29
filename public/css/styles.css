@@ -136,10 +136,11 @@ li a:hover {
 /* End bee Page */
 
 /* Start shop Page */
-.shop{
+.shop, .shop a{
     width: 80%;
     margin: 30px auto;
     text-align: center;
+    text-decoration: none;
 }
 
 .shopPics {

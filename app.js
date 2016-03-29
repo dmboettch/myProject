@@ -75,6 +75,7 @@ app.get('/contact', function(req,res){
 });
 
 app.post('/capture', function(req,res){
+    console.log("apture fired");
     var data = req.body.dataPackage;
 
     var mailOptions = {

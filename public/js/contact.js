@@ -1,54 +1,26 @@
 $(function() {
 
-    //Below is the sample from
-    //var api_key = 'key-c5d60ef5c6bcd27e014c3898bbfb7c97';
-    //var domain = 'alltruefarm.com';
-    //var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
-    //var dataPackage = {
-    //    from: 'alltruefarm@gmail.com',
-    //    to: 'dmboettch@hotmail.com',
-    //    subject: 'Hello',
-    //    text: 'First try with changes'
-    //};
-    //mailgun.messages().send(dataPackage, function (error, body) {
-    //    console.log(body);
-    //});
-
-    //below is the sample from class
     var dataPackage = {
         "firstName": '',
         "lastName": '',
-        "email": '',
-    }
-
-    //Below is a combination of the above two
-    //var api_key = 'key-c5d60ef5c6bcd27e014c3898bbfb7c97';
-    //var domain = 'alltruefarm.com';
-    //var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
-    //var dataPackage = {
-    //        "firstName": '',
-    //        "lastName": '',
-    //        "email": '',
-    //    }
-    //mailgun.messages().send(dataPackage, function (error, body) {
-    //    console.log(body);
-    //});
+        "email": ''
+    };
 
     // get control of my form to prevent it from submitting in the traditional manner
-    $('form').on('submit', function(e) {
-        e.preventDefault();
+    $('contact').on('submit', function(e) {
+        //e.preventDefault();
         // run our validation.  Check for a true or false result.
-
         if(inputCheck()) {
             //if the form is valid:
             // submit form
-            // console.log('submit the form! do it!');
+             console.log('submit the form! do it!');
             // populate package with data as a prelude to sending the data to the server.
             dataPackage.firstName = $('#firstName').val();
             dataPackage.lastName = $('#lastName').val();
             dataPackage.email = $('#emailAddr').val();
         } else {
             // if the form is invalid, post a message to the console.
+            e.preventDefault();
             console.log('There was a problem!');
         }
     });

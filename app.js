@@ -20,56 +20,56 @@ app.use(express.static('public'));
 
 app.get('/', function(req,res){
     res.render('pages/home',{
-        title: 'Farm',
+        title: 'Alltrue Farm',
         pageTitle: 'About Us'
     });
 });
 
 app.get('/turkey', function(req,res){
     res.render('pages/turkey',{
-        title: 'Turkeys',
+        title: 'Alltrue Turkeys',
         pageTitle: 'Turkeys'
     });
 });
 
 app.get('/garden', function(req,res){
     res.render('pages/garden',{
-        title: 'Garden',
+        title: 'Alltrue Garden',
         pageTitle: 'The Garden!'
     });
 });
 
 app.get('/cat', function(req,res){
     res.render('pages/cat',{
-        title: 'Cats',
+        title: 'Alltrue Cats',
         pageTitle: 'Cats'
     });
 });
 
 app.get('/chicken', function(req,res){
     res.render('pages/chicken',{
-        title: 'Chicken',
-        pageTitle: 'Chicken'
+        title: 'Alltrue Chickens',
+        pageTitle: 'Chickens'
     });
 });
 
 app.get('/bee', function(req,res){
     res.render('pages/bee',{
-        title: 'Bees',
+        title: 'Alltrue Bees',
         pageTitle: 'Bees'
     });
 });
 
 app.get('/shop', function(req,res){
     res.render('pages/shop',{
-        title: 'Shopping',
+        title: 'Alltrue Shopping',
         pageTitle: 'Shopping'
     });
 });
 
 app.get('/contact', function(req,res){
     res.render('pages/contact',{
-        title: 'Contact Form',
+        title: 'Alltrue Contact Form',
         pageTitle: 'Contact Form'
     });
 });

@@ -6,11 +6,10 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100vw;
     background-color: #add8e6;
     color: darkgreen;
     font-family: sans-serif;
-    font-size: x-large;
+    font-size: large;
 }
 
 .container{
@@ -19,6 +18,7 @@ body{
 
 .pageTitle{
     text-align: center;
+    margin: 10px;
 }
 
 /* Start Header Page */
@@ -93,6 +93,9 @@ li a:hover {
 /* End turkey Page */
 
 /* Start Garden Page */
+.garden p{
+    margin: 10px;
+}
 .garden{
     display: flex;
     flex-direction: column;
@@ -125,27 +128,31 @@ li a:hover {
 
 /* Start cat Page */
 .cat{
-
+    text-align: center;
 }
 /* End cat Page */
 
 /* Start chicken Page */
 .chicken{
-
+    text-align: center;
 }
 /* End chicken Page */
 
 /* Start bee Page */
 .bee {
+    text-align: center;
 }
 /* End bee Page */
 
 /* Start shop Page */
-.shop, .shop a{
+.shop{
     width: 80%;
-    margin: 30px auto;
+    margin: auto;
     text-align: center;
-    text-decoration: none;
+}
+
+.shop p{
+    margin: 10px;
 }
 
 .shopPics {
@@ -166,6 +173,8 @@ li a:hover {
 .shopPics img{
     max-width: 350px;
     border-radius: 5px;
+    float: left;
+    padding: 20px;
 }
 .description{
     text-align: center;
@@ -175,6 +184,7 @@ li a:hover {
     flex-direction: column;
     margin: auto;
     font-size: x-large;
+    padding: 20px;
 }
 /* End shop Page */
 
@@ -186,6 +196,7 @@ form.contact{
 }
 .contactText, .thankYou p{
     text-align: center;
+    margin: 10px;
 }
 
 fieldset input{
@@ -193,6 +204,7 @@ fieldset input{
 }
 label{
     display: block;
+    font-size: medium;
 }
 fieldset {
     border:0;
@@ -209,6 +221,7 @@ fieldset .errorMsg, fieldset .emailErrorMsg{
 }
 fieldset.error .errorMsg, fieldset.emailError .emailErrorMsg{
     display: inline;
+    font-size: medium;
 }
 fieldset.error input{
     border: 1px solid red;

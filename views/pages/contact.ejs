@@ -13,6 +13,7 @@
     <% include ../partials/header.ejs %>
 </header>
     <h1 class="pageTitle"><%= pageTitle %></h1>
+<div class="contactPage">
     <p class="contactText">We work outside a lot so please enter your name and email address and we will get back to you as soon as we can.</p>
 
 <form class="contact" action="/contact" method="post" novalidate>
@@ -35,7 +36,7 @@
     <fieldset>
         <label for="subject">Subject</label>
         <input type="text" name="subject" id="subject">
-        <!--<p class="errorMsg">Please enter the subject for your email.</p>-->
+        <p class="errorMsg">Please enter the subject for your comments.</p>
     </fieldset>
     <fieldset>
         <label for="comments">Comments</label>
@@ -46,5 +47,6 @@
             <input type="submit" value="submit">
         </fieldset>
 </form>
+</div>
 </body>
 </html>

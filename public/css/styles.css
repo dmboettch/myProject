@@ -83,7 +83,12 @@ li a:hover {
 
 /* Start turkey Page*/
 .turkey{
-
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+.turkey img{
+    padding: 20px;
 }
 /* End turkey Page */
 
@@ -184,7 +189,7 @@ form.contact{
 }
 
 fieldset input{
-    font-size: large;
+    font-size: small;
 }
 label{
     display: block;

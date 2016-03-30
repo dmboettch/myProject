@@ -27,8 +27,8 @@ app.get('/', function(req,res){
 
 app.get('/turkey', function(req,res){
     res.render('pages/turkey',{
-        title: 'Turkey',
-        pageTitle: 'Turkey'
+        title: 'Turkeys',
+        pageTitle: 'Turkeys'
     });
 });
 

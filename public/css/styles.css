@@ -12,6 +12,16 @@ body{
     font-size: large;
 }
 
+.footer{
+}
+
+footer{
+    background-color: #72b3e6;
+    text-align: center;
+    font-size: xx-small;
+    margin-top: 10px;
+}
+
 .container{
     background-color: #72b3e6;
 }
@@ -83,7 +93,6 @@ li a:hover {
 
 /* Start turkey Page*/
 .turkey{
-    height: 100vh;
     margin: auto;
     text-align: center;
 }

@@ -81,7 +81,7 @@ app.post('/contact', function(req,res){
     'h:Reply-To': req.body.emailAddr,
     to: 'alltruefarm@gmail.com',
     subject: req.body.subject,
-    text: req.body.firstName + "\n" + req.body.lastName + "\n" + '<' + req.body.emailAddr + '>' + "\n" + req.body.comments
+    text: "First Name" + ":" + " " + req.body.firstName + "\n" + "Last Name" + ":" + " " + req.body.lastName + "\n" + "email" + ":" + " " + '<' + req.body.emailAddr + '>' + "\n" + "\n" + req.body.comments
     };
 
     mailgun.messages().send(mailOptions, function (error, body) {

@@ -545,7 +545,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459366899222</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Clean-Up">
+      <created>1459366945926</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1459366945926</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">

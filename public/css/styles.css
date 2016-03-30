@@ -179,7 +179,7 @@ form.contact{
     flex-direction: column;
     align-items: center;
 }
-.contactText{
+.contactText, .thankYou p{
     text-align: center;
 }
 

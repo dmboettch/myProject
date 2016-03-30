@@ -91,7 +91,10 @@ app.post('/contact', function(req,res){
         }
         else{
             console.log(body)
-            return res.render('pages/thankYou')
+            return res.render('pages/thankYou',{
+                title: 'Thank You',
+                pageTitle: 'Thank You!'
+            });
         }
     });
 });

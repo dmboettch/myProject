@@ -5,32 +5,23 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     background-color: #add8e6;
     color: darkgreen;
     font-family: sans-serif;
     font-size: large;
 }
-
-.footer{
-}
-
 footer{
     background-color: #72b3e6;
     text-align: center;
     font-size: xx-small;
-    margin-top: 10px;
 }
-
 .container{
     background-color: #72b3e6;
 }
-
 .pageTitle{
     text-align: center;
     margin: 10px;
 }
-
 /* Start Header Page */
 .farm{
     display: flex;
@@ -74,7 +65,6 @@ li a:hover {
     border-radius: 5px;
 }
 /* End Header Page */
-
 /* Start Home Page*/
 .home{
     background: url(homeBckgrd.jpg);
@@ -90,7 +80,6 @@ li a:hover {
     font-size: x-large;
 }
 /* End Home Page*/
-
 /* Start turkey Page*/
 .turkey{
     margin: auto;
@@ -100,7 +89,6 @@ li a:hover {
     padding: 20px;
 }
 /* End turkey Page */
-
 /* Start Garden Page */
 .garden p{
     margin: 10px;
@@ -134,36 +122,18 @@ li a:hover {
     margin-bottom: 20px;
 }
 /* End Garden Page */
-
-/* Start cat Page */
-.cat{
+.cat, .chicken, .bee{
     text-align: center;
 }
-/* End cat Page */
-
-/* Start chicken Page */
-.chicken{
-    text-align: center;
-}
-/* End chicken Page */
-
-/* Start bee Page */
-.bee {
-    text-align: center;
-}
-/* End bee Page */
-
 /* Start shop Page */
 .shop{
     width: 80%;
     margin: auto;
     text-align: center;
 }
-
 .shop p{
     margin: 10px;
 }
-
 .shopPics {
     border-style: solid;
     border-color: grey;
@@ -196,7 +166,6 @@ li a:hover {
     padding: 20px;
 }
 /* End shop Page */
-
 /* Start contact Page */
 form.contact{
     display: flex;
@@ -207,7 +176,6 @@ form.contact{
     text-align: center;
     margin: 10px;
 }
-
 fieldset input{
     font-size: small;
 }
@@ -217,10 +185,6 @@ label{
 }
 fieldset {
     border:0;
-}
-form{
-    border: 1px solid #ccc;
-
 }
 fieldset .errorMsg, fieldset .emailErrorMsg{
     display: none;

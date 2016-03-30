@@ -2,51 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e52f559e-94b0-4db2-b892-846f7e88df9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/beePics/beeAndMnt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/beePics/beeCloseUp.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/beePics/beePackage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/beePics/beeSide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/beePics/beeWindow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/beePics/hiveFront.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/beePics/honeyComb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/beePics/twoBees.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/catBasket.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/catChair.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/catNap.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/catSoda.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/catsOnCouch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/fourWeeks.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/growingKittens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/kittens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/kittensAndMom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/newKittens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/sleepingCats.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/catPics/threeCats.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chickenPics/angel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chickenPics/buffy.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chickenPics/chickenFeeder.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chickenPics/chicks.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chickenPics/flock.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chickenPics/flock2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chickenPics/hatchling.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chickenPics/incubator.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chickenPics/missBroody.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chickenPics/nestEggs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/chickenPics/teenChicks.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/shopPics/turkeyEggs.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/styles.css" afterPath="$PROJECT_DIR$/public/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/bee.ejs" afterPath="$PROJECT_DIR$/views/pages/bee.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/cat.ejs" afterPath="$PROJECT_DIR$/views/pages/cat.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/chicken.ejs" afterPath="$PROJECT_DIR$/views/pages/chicken.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/contact.js" afterPath="$PROJECT_DIR$/public/js/contact.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/contact.ejs" afterPath="$PROJECT_DIR$/views/pages/contact.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/garden.ejs" afterPath="$PROJECT_DIR$/views/pages/garden.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/home.ejs" afterPath="$PROJECT_DIR$/views/pages/home.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/shop.ejs" afterPath="$PROJECT_DIR$/views/pages/shop.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/thankYou.ejs" afterPath="$PROJECT_DIR$/views/pages/thankYou.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/turkey.ejs" afterPath="$PROJECT_DIR$/views/pages/turkey.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/footer.ejs" afterPath="$PROJECT_DIR$/views/partials/footer.ejs" />
     </list>
     <ignored path="myProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,61 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="139" selection-start-line="83" selection-start-column="139" selection-end-line="83" selection-end-column="139" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/partials/footer.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8387096">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thankYou.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/pages/thankYou.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.612904">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34251496">
-              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.6047904">
+              <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/partials/head.ejs">
+      <file leaf-file-name="contact.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pages/contact.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.096774">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="turkey.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/pages/turkey.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.064516">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state vertical-scroll-proportion="-0.7096774">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,38 +50,8 @@
       <file leaf-file-name="garden.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/pages/garden.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.258064">
+            <state vertical-scroll-proportion="-18.709677">
               <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/pages/home.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.903226">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/partials/header.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.870968">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shop.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/pages/shop.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-35.48387">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -195,7 +85,6 @@
         <option value="$PROJECT_DIR$/key_auth.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/public/js/contact.js" />
         <option value="$PROJECT_DIR$/views/partials/header.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/partials/footer.ejs" />
@@ -203,11 +92,12 @@
         <option value="$PROJECT_DIR$/views/pages/bee.ejs" />
         <option value="$PROJECT_DIR$/views/pages/cat.ejs" />
         <option value="$PROJECT_DIR$/views/pages/chicken.ejs" />
-        <option value="$PROJECT_DIR$/views/pages/contact.ejs" />
         <option value="$PROJECT_DIR$/views/pages/garden.ejs" />
-        <option value="$PROJECT_DIR$/views/pages/shop.ejs" />
         <option value="$PROJECT_DIR$/views/pages/thankYou.ejs" />
         <option value="$PROJECT_DIR$/views/pages/turkey.ejs" />
+        <option value="$PROJECT_DIR$/views/pages/shop.ejs" />
+        <option value="$PROJECT_DIR$/public/js/contact.js" />
+        <option value="$PROJECT_DIR$/views/pages/contact.ejs" />
         <option value="$PROJECT_DIR$/public/css/styles.css" />
       </list>
     </option>
@@ -336,28 +226,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopPics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -608,7 +476,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459317407581</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added pictures for bees, cats and chickens. Added footer.">
+      <created>1459354633485</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1459354633485</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -668,7 +542,8 @@
     <MESSAGE value="Thank You page" />
     <MESSAGE value="Added turkey pics" />
     <MESSAGE value="Clean-Up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean-Up" />
+    <MESSAGE value="Added pictures for bees, cats and chickens. Added footer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added pictures for bees, cats and chickens. Added footer." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -939,14 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/beePics/twoBees.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -964,30 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/chicken.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.290323">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/contact.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.67742">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/garden.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.258064">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1032,14 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/shop.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-35.48387">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/home.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.903226">
@@ -1056,10 +891,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/shop.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4193548">
+          <caret line="20" column="101" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/chicken.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.290323">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/contact.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7096774">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/garden.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.709677">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34251496">
-          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.6047904">
+          <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -170,7 +170,7 @@ form.contact{
     flex-direction: column;
     align-items: center;
 }
-.contactPage{
+.contactPage, .thankYou{
     height: 100vh;
 }
 .contactText, .thankYou p{

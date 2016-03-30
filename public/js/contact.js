@@ -4,7 +4,8 @@ $(function() {
         "firstName": '',
         "lastName": '',
         "email": '',
-        "subject": ''
+        "subject": '',
+        "comments": ''
     };
 
     // get control of my form to prevent it from submitting in the traditional manner
@@ -19,7 +20,7 @@ $(function() {
             dataPackage.firstName = $('#firstName').val();
             dataPackage.lastName = $('#lastName').val();
             dataPackage.email = $('#emailAddr').val();
-            //dataPackage.subject = $('#subject').val();
+            dataPackage.subject = $('#subject').val();
         } else {
             // if the form is invalid, post a message to the console.
             e.preventDefault();
@@ -61,7 +62,7 @@ $(function() {
         }
 
         //final check for the valid count.
-        if(isValid === 4) {
+        if(isValid === 5) {
             return true;
         } else {
             return false;

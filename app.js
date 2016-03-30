@@ -75,12 +75,13 @@ app.get('/contact', function(req,res){
 });
 
 app.post('/contact', function(req,res){
+    console.log(req.body);
     var mailOptions = {
     from: 'alltruefarm@gmail.com',
-    replyTo: req.body.firstName + '' + req.body.lastName + '<' + req.body.email + '>',
+    'h:Reply-To': req.body.emailAddr,
     to: 'alltruefarm@gmail.com',
     subject: req.body.subject,
-    text: 'Testing some Mailgun awesomness! @ 5:05'
+    text: req.body.firstName + "\n" + req.body.lastName + "\n" + '<' + req.body.emailAddr + '>' + "\n" + req.body.comments
     };
 
     mailgun.messages().send(mailOptions, function (error, body) {

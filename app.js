@@ -7,8 +7,8 @@ var app = express();
 
 var port = process.env.PORT || 3000;
 
-var mailgun = require('mailgun-js');
-//var mailgun = require('mailgun-js')({apiKey: auth.api_key, domain: auth.domain});
+//var mailgun = require('mailgun-js');
+var mailgun = require('mailgun-js')({apiKey: process.env.mailgun_api_key, domain: process.env.mailgun_domain});
 
 
 app.use(bodyParser.json());

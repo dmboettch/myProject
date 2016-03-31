@@ -3,11 +3,12 @@ var request = require('request');
 var http = require('http');
 var bodyParser = require('body-parser');
 var app = express();
-var auth = require('./key_auth.json');
+//var auth = require('./key_auth.json');
 
 var port = process.env.PORT || 3000;
 
-var mailgun = require('mailgun-js')({apiKey: auth.api_key, domain: auth.domain});
+var mailgun = require('mailgun-js');
+//var mailgun = require('mailgun-js')({apiKey: auth.api_key, domain: auth.domain});
 
 
 app.use(bodyParser.json());

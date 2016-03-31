@@ -5,8 +5,6 @@ var bodyParser = require('body-parser');
 var app = express();
 var auth = require('./key_auth.json');
 
-//var port = 3000;
-//activate for Heroku
 var port = process.env.PORT || 3000;
 
 var mailgun = require('mailgun-js')({apiKey: auth.api_key, domain: auth.domain});
@@ -92,7 +90,7 @@ app.post('/contact', function(req,res){
         else{
             console.log(body)
             return res.render('pages/thankYou',{
-                title: 'Thank You',
+                title: 'Alltrue Farm',
                 pageTitle: 'Thank You!'
             });
         }

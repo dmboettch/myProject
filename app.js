@@ -7,8 +7,10 @@ var app = express();
 
 var port = process.env.PORT || 3000;
 
-//var mailgun = require('mailgun-js');
+//var mailgun = require('mailgun-js')({apiKey: auth.api_key, domain: auth.domain});
 var mailgun = require('mailgun-js')({apiKey: process.env.mailgun_api_key, domain: process.env.mailgun_domain});
+console.log(process.env.mailgun_api_key);
+console.log(process.env.mailgun_domain);
 
 
 app.use(bodyParser.json());
@@ -82,10 +84,11 @@ app.post('/contact', function(req,res){
     subject: req.body.subject,
     text: "First Name" + ":" + " " + req.body.firstName + "\n" + "Last Name" + ":" + " " + req.body.lastName + "\n" + "email" + ":" + " " + '<' + req.body.emailAddr + '>' + "\n" + "\n" + req.body.comments
     };
-
+console.log(mailOptions);
     mailgun.messages().send(mailOptions, function (error, body) {
         if(error){
             console.log(error)
+
             return res.send('There was an error')
         }
         else{

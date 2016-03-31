@@ -3,15 +3,10 @@ var request = require('request');
 var http = require('http');
 var bodyParser = require('body-parser');
 var app = express();
-//var auth = require('./key_auth.json');
 
 var port = process.env.PORT || 3000;
 
-//var mailgun = require('mailgun-js')({apiKey: auth.api_key, domain: auth.domain});
 var mailgun = require('mailgun-js')({apiKey: process.env.mailgun_api_key, domain: process.env.mailgun_domain});
-console.log(process.env.mailgun_api_key);
-console.log(process.env.mailgun_domain);
-
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
@@ -87,8 +82,6 @@ app.post('/contact', function(req,res){
 console.log(mailOptions);
     mailgun.messages().send(mailOptions, function (error, body) {
         if(error){
-            console.log(error)
-
             return res.send('There was an error')
         }
         else{

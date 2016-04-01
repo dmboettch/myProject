@@ -44,14 +44,6 @@ li{
     flex: 1;
     border-radius: 5px
 }
-ul:after{   /*sometimes uses :: but not all browsers recognize it insert after ul*/
-    /*need to do this to identify the ul because we are using a float*/
-    content: "";
-    clear: both;
-    height: 0;
-    width: 0;
-    display: block;
-}
 li a {
     color: darkgreen;
     font-size: 20px;

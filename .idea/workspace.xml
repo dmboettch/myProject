@@ -97,8 +97,8 @@
       <file leaf-file-name="shop.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/pages/shop.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36886227">
-              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.57964075">
+              <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -296,28 +296,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopPics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -396,12 +374,6 @@
       <created>1457657229655</created>
       <option name="number" value="Default" />
       <updated>1457657229655</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Setup email checker">
-      <created>1458408718006</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1458408718006</updated>
     </task>
     <task id="LOCAL-00005" summary="Added pageTitle common to all pages. Started sendmail but not working yet.">
       <created>1458496643855</created>
@@ -691,7 +663,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459616948048</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Added turkey hatch date.">
+      <created>1459618603798</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1459618603798</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -730,7 +708,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Clean-up" />
     <MESSAGE value="Re-align shopping page." />
     <MESSAGE value="Changed port for Heroku" />
     <MESSAGE value="Removed sendmail and added mailgun" />
@@ -755,7 +732,8 @@
     <MESSAGE value="Resize cat pics." />
     <MESSAGE value="Resize shop pics." />
     <MESSAGE value="Moved carousel script to head in garden.ejs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved carousel script to head in garden.ejs" />
+    <MESSAGE value="Added turkey hatch date." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added turkey hatch date." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1138,8 +1116,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/shop.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36886227">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.57964075">
+          <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
           <folding />
         </state>
       </provider>

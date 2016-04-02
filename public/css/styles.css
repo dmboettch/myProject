@@ -78,9 +78,8 @@ li a:hover {
     text-align: center;
 }
 .turkey img, .cat img, .chicken img, .bee img{
-    padding: 20px;
-    max-height: 750px;
-    max-width: 750px;
+    padding: 25px;
+    max-height: 400px;
 }
 /* Start Garden Page */
 .garden p{

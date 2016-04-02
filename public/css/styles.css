@@ -93,18 +93,10 @@ li a:hover {
 }
 /* cycle-slideshow */
 .cycle-slideshow{
-    width: 80%;
     position: relative;
     margin: auto;
     height: 100%;
     overflow: hidden;
-}
-.pause{
-    color: darkgreen;
-    font-size: x-small;
-    text-transform: uppercase;
-    margin: auto;
-    width: 275px;
 }
 #adv-custom-pager.center.external a {
     margin: 0 5px;
@@ -112,6 +104,19 @@ li a:hover {
 #adv-custom-pager.center.external{
     margin-top: 10px;
     margin-bottom: 20px;
+}
+.cycle-paused:after {
+    content: 'Paused';
+    color: white;
+    background: black;
+    padding: 10px;
+    z-index: 500;
+    position: relative;
+    bottom: 50px;
+    /*top: 50px;*/
+    border-radius: 10px;
+    opacity: .5;
+    filter: alpha(opacity=50);
 }
 /* End Garden Page */
 /* Start shop Page */

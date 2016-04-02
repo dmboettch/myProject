@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e52f559e-94b0-4db2-b892-846f7e88df9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chickenPics/angel.jpg" afterPath="$PROJECT_DIR$/public/css/chickenPics/angel.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chickenPics/buffy.jpg" afterPath="$PROJECT_DIR$/public/css/chickenPics/buffy.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chickenPics/chickenFeeder.jpg" afterPath="$PROJECT_DIR$/public/css/chickenPics/chickenFeeder.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chickenPics/chicks.jpg" afterPath="$PROJECT_DIR$/public/css/chickenPics/chicks.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chickenPics/flock.jpg" afterPath="$PROJECT_DIR$/public/css/chickenPics/flock.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chickenPics/flock2.jpg" afterPath="$PROJECT_DIR$/public/css/chickenPics/flock2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chickenPics/hatchling.jpg" afterPath="$PROJECT_DIR$/public/css/chickenPics/hatchling.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chickenPics/incubator.jpg" afterPath="$PROJECT_DIR$/public/css/chickenPics/incubator.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chickenPics/missBroody.jpg" afterPath="$PROJECT_DIR$/public/css/chickenPics/missBroody.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chickenPics/nestEggs.jpg" afterPath="$PROJECT_DIR$/public/css/chickenPics/nestEggs.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chickenPics/teenChicks.jpg" afterPath="$PROJECT_DIR$/public/css/chickenPics/teenChicks.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/beePics/beeAndMnt.jpg" afterPath="$PROJECT_DIR$/public/css/beePics/beeAndMnt.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/beePics/beeCloseUp.jpg" afterPath="$PROJECT_DIR$/public/css/beePics/beeCloseUp.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/beePics/beePackage.jpg" afterPath="$PROJECT_DIR$/public/css/beePics/beePackage.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/beePics/beeSide.jpg" afterPath="$PROJECT_DIR$/public/css/beePics/beeSide.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/beePics/beeWindow.jpg" afterPath="$PROJECT_DIR$/public/css/beePics/beeWindow.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/beePics/hiveFront.jpg" afterPath="$PROJECT_DIR$/public/css/beePics/hiveFront.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/beePics/honeyComb.jpg" afterPath="$PROJECT_DIR$/public/css/beePics/honeyComb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/beePics/twoBees.jpg" afterPath="$PROJECT_DIR$/public/css/beePics/twoBees.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/styles.css" afterPath="$PROJECT_DIR$/public/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/chicken.ejs" afterPath="$PROJECT_DIR$/views/pages/chicken.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/turkey.ejs" afterPath="$PROJECT_DIR$/views/pages/turkey.ejs" />
     </list>
     <ignored path="myProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +54,8 @@
       <file leaf-file-name="turkey.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/pages/turkey.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81676644">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.10538922">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -306,6 +300,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beePics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -670,14 +686,20 @@
       <option name="project" value="LOCAL" />
       <updated>1459611721927</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Resize chicken pics.">
+      <created>1459612908767</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1459612908767</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="980" y="0" width="951" height="1032" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27974278" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27974278" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -709,7 +731,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Setup email checker" />
     <MESSAGE value="Added pageTitle common to all pages. Started sendmail but not working yet." />
     <MESSAGE value="Changed some navbar titles." />
     <MESSAGE value="Change port and json scripts for use with Heroku" />
@@ -734,7 +755,8 @@
     <MESSAGE value="removed api" />
     <MESSAGE value="Moved jquery.cycle.2 to garden.ejs" />
     <MESSAGE value="Resize turkey pics." />
-    <option name="LAST_COMMIT_MESSAGE" value="Resize turkey pics." />
+    <MESSAGE value="Resize chicken pics." />
+    <option name="LAST_COMMIT_MESSAGE" value="Resize chicken pics." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1115,8 +1137,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/turkey.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81676644">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.10538922">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>

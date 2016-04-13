@@ -13,9 +13,10 @@
     <% include ../partials/header.ejs %>
 </header>
     <h1 class="pageTitle"><%= pageTitle %></h1>
-    <p>We work outside a lot so please enter your name and email address and we will get back to you as soon as we can.</p>
-
-<form class="contact" action="pages/contact" method="post" novalidate>
+<div class="contactPage">
+    <p class="contactText">We work outside a lot so please enter your name and email address and we will get back to you as soon as we can.</p>
+<div>
+<form class="contact" action="/contact" method="post" novalidate>
         <fieldset>
             <label for="firstName">First Name</label>
             <input type="text" name="firstName" id="firstName">
@@ -30,12 +31,26 @@
             <label for="emailAddr">Email Address</label>
             <input type="text" name="emailAddr" id="emailAddr">
             <p class="errorMsg">Please enter your email address.</p>
-            <p class="emailErrorMsg">Please enter a valid email address</p>
+            <p class="emailErrorMsg">Please enter a valid email address.</p>
         </fieldset>
-        <fieldset>
+    <fieldset>
+        <label for="subject">Subject</label>
+        <input type="text" name="subject" id="subject">
+        <p class="errorMsg">Please enter the subject for your comments.</p>
+    </fieldset>
+    <fieldset>
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" cols="40" rows="10"></textarea>
+    </fieldset>
+    <fieldset>
             <input type="reset" value="reset">
             <input type="submit" value="submit">
         </fieldset>
 </form>
+</div>
+</div>
+<footer>
+    <% include ../partials/footer %>
+</footer>
 </body>
 </html>

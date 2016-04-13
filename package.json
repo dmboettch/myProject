@@ -1,10 +1,10 @@
 {
   "name": "my-project",
   "version": "1.0.0",
-  "description": "Final project for Weblab 2016\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[L\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[",
+  "description": "Final project for Weblab 2016",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/dmboettch/myProject#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
-    "request": "^2.69.0",
-    "sendmail": "^0.2.1"
+    "mailgun-js": "^0.7.7",
+    "request": "^2.69.0"
   }
 }

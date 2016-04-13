@@ -5,15 +5,34 @@
 <head>
     <!-- include head.ejs file-->
     <% include ../partials/head.ejs%>
+    <script src="js/enlarge.js"></script>
 </head>
 <body>
 <header>
     <!-- Include the header of the page -->
     <% include ../partials/header.ejs %>
 </header>
-<div class="turkey"></div>
     <h1 class="pageTitle"><%= pageTitle %></h1>
-
+<div class="turkey">
+    <p>We have Heritage breed turkeys.</p>
+    <p>Bourbon Red, Royal Palm and Black Spanish</p>
+    <div>
+    <a href="#"><img src="css/turkeyPics/turkeyFlock.jpg" alt="A Flock of Turkeys"/></a>
+    </div>
+    <div>
+        <a href="#"><img src="css/turkeyPics/chicks.jpg" alt=" Turkey Chicks"/></a>
+        <a href="#"><img src="css/turkeyPics/tom.jpg" alt="Tom"/></a>
+    </div>
+    <div>
+        <a href="#"><img src="css/turkeyPics/barnTurkeys.jpg" alt="Barn Turkeys"/></a>
+    <a href="#"><img src="css/turkeyPics/tractorTurkey.jpg" alt="Tractor Turkeys"/></a>
+    </div>
+    <div>
+        <a href="#"><img src="css/turkeyPics/houseTurkeys.jpg" alt="House Turkeys"/></a>
+    </div>
+</div>
+<footer>
+    <% include ../partials/footer %>
+</footer>
 </body>
-
 </html>

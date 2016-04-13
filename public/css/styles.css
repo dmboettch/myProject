@@ -3,27 +3,35 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    background-color: #fff;
-    color: #000;
+    background-color: #add8e6;
+    color: darkgreen;
     font-family: sans-serif;
+    font-size: large;
+}
+footer{
+    background-color: #72b3e6;
+    text-align: center;
+    font-size: xx-small;
+}
+.container{
+    background-color: #72b3e6;
 }
 .pageTitle{
     text-align: center;
+    margin: 10px;
 }
-
 /* Start Header Page */
 .farm{
     display: flex;
     justify-content: center;
-}
-.navbar {
-    /*background-color: yellow;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
+    font-size: 80px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: darkgreen;
+    margin: 0;
+    padding: 15px;
 }
 ul{
     display: flex;
@@ -34,31 +42,22 @@ ul{
 li{
     display: flex;
     flex: 1;
-    background-color: #3b3b3b;
-    border-style: solid;
-}
-ul:after{   /*sometimes uses :: but not all browsers recognize it insert after ul*/
-    /*need to do this to identify the ul because we are using a float*/
-    content: "";
-    clear: both;
-    height: 0;
-    width: 0;
-    display: block;
+    border-radius: 5px
 }
 li a {
-    background-color: #3b3b3b;
-    color: #fff;
-    font-size: 16px;
+    color: darkgreen;
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
     padding: 10px;
     margin: auto;
     text-align: center;
 }
 li a:hover {
-    background-color: #000;
+    background-color: lightblue;
+    border-radius: 5px;
 }
 /* End Header Page */
-
 /* Start Home Page*/
 .home{
     background: url(homeBckgrd.jpg);
@@ -71,16 +70,24 @@ li a:hover {
     margin-right: auto;
     width: 70%;
     margin-bottom: 0;
+    font-size: x-large;
 }
 /* End Home Page*/
-
-/* Start fowl Page*/
-.turkey{
-
+.turkey, .cat, .chicken, .bee{
+    margin: auto;
+    text-align: center;
 }
-/* End fowl Page */
-
+.turkey img, .cat img, .chicken img, .bee img{
+    padding: 20px;
+    max-height: 300px;
+}
+.turkey img:hover, .cat img:hover, .chicken img:hover, .bee img:hover{
+    transform: scale(2,2);
+}
 /* Start Garden Page */
+.garden p{
+    margin: 10px;
+}
 .garden{
     display: flex;
     flex-direction: column;
@@ -89,20 +96,10 @@ li a:hover {
 }
 /* cycle-slideshow */
 .cycle-slideshow{
-    width: 80%;
     position: relative;
     margin: auto;
     height: 100%;
     overflow: hidden;
-}
-.pause{
-    border-radius: 5px;
-    background: rgba(173, 216, 230, 0.21);
-    color: rgba(0, 124, 255, 0.55);
-    font-size: smaller;
-    text-transform: uppercase;
-    margin: auto;
-    width: 275px;
 }
 #adv-custom-pager.center.external a {
     margin: 0 5px;
@@ -111,36 +108,37 @@ li a:hover {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.cycle-paused:after {
+    content: 'Paused';
+    color: white;
+    background: black;
+    padding: 10px;
+    z-index: 500;
+    position: relative;
+    bottom: 50px;
+    /*top: 50px;*/
+    border-radius: 10px;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
 /* End Garden Page */
-
-/* Start pest Page */
-.pest{
-
-}
-/* End pest Page */
-
-/* Start herd Page */
-.chicken{
-
-}
-/* End herd Page */
-
-/* Start sting Page */
-.sting {
-}
-/* End sting Page */
-
 /* Start shop Page */
-.shop {
+.shop{
     width: 80%;
-    margin: 30px auto;
+    margin: auto;
+    text-align: center;
+}
+.shop p{
+    margin: 10px;
 }
 .shopPics {
-    margin:  2% 2% 2% 2%;
     border-style: solid;
     border-color: grey;
     padding: 10px;
-    display: inline-block;
+    min-height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
 .shopTitle, .price {
     text-transform: uppercase;
@@ -149,32 +147,44 @@ li a:hover {
     margin: auto;
 }
 .shopPics img{
-    max-width: 20%;
+    max-width: 400px;
     border-radius: 5px;
     float: left;
+    padding: 20px;
 }
-.shopPics a{
-}
-.shopPics p{
+.description{
     text-align: center;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: x-large;
+    padding: 20px;
+}
 /* End shop Page */
-
 /* Start contact Page */
-.contact{
+form.contact{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.contactPage, .thankYou{
+    height: 100vh;
+}
+.contactText, .thankYou p{
+    text-align: center;
+    margin: 10px;
+}
+fieldset input{
+    font-size: small;
+}
 label{
     display: block;
+    font-size: medium;
 }
 fieldset {
     border:0;
-}
-form{
-    border: 1px solid #ccc;
-
 }
 fieldset .errorMsg, fieldset .emailErrorMsg{
     display: none;
@@ -184,6 +194,7 @@ fieldset .errorMsg, fieldset .emailErrorMsg{
 }
 fieldset.error .errorMsg, fieldset.emailError .emailErrorMsg{
     display: inline;
+    font-size: medium;
 }
 fieldset.error input{
     border: 1px solid red;

@@ -5,6 +5,7 @@
 <head>
     <!-- include head.ejs file-->
     <% include ../partials/head.ejs%>
+    <script src="js/imageFlip.js"></script>
 </head>
 <body>
 <header>
@@ -14,8 +15,16 @@
 <h1 class="pageTitle"><%= pageTitle %></h1>
 <div class="cat">
     <p>Don't let these cuties fool you... They're great mousers!</p>
+        <!--<div class="flip">-->
+            <!--<div class="front">-->
+                <!--<img src="img/catPics/catBasket.jpg" alt="Cat in a Basket"/>-->
+            <!--</div>-->
+            <!--<div class="back">-->
+                <!--<h3>Text goes here!</h3>-->
+            <!--</div>-->
+        <!--</div>-->
     <div>
-    <a href="#"><img src="img/catPics/catBasket.jpg" alt="Cat in a Basket"/></a>
+        <a href="#"><img src="img/catPics/catBasket.jpg" alt="Cat in a Basket"/></a>
     <a href="#"><img src="img/catPics/threeCats.jpg" alt="My Three Cats"/></a>
     <a href="#"><img src="img/catPics/catSoda.jpg" alt="Cat in a Soda Container"/></a>
     </div>
@@ -35,5 +44,6 @@
 <footer>
     <% include ../partials/footer %>
 </footer>
+<script type="text/javascript" src="js/jquery.flip.min.js"></script>
 </body>
 </html>

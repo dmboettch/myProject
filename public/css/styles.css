@@ -1,4 +1,4 @@
-/* public/cdd/styles.css */
+/* public/css/styles.css */
 
 body{
     margin: 0;
@@ -11,11 +11,32 @@ body{
     font-family: sans-serif;
     font-size: large;
 }
+/*******************************************************************/
+/*Start Footer*/
+/*******************************************************************/
+.goToTop{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(20, 105, 152, 0.5);
+    font-size: 10px;
+    padding: 1em;
+    border-radius: 10px;
+    display: none;
+}
+.goToTop:hover{
+    background-color: rgba(20, 105, 152, 0.7);
+}
 footer{
     background-color: #72b3e6;
     text-align: center;
-    font-size: xx-small;
+    font-size: small;
 }
+/*******************************************************************/
+/*End Footer*/
+/*******************************************************************/
 .container{
     background-color: #72b3e6;
 }
@@ -23,7 +44,9 @@ footer{
     text-align: center;
     margin: 10px;
 }
+/*******************************************************************/
 /* Start Header Page */
+/*******************************************************************/
 .farm{
     display: flex;
     justify-content: center;
@@ -57,8 +80,11 @@ li a:hover {
     background-color: lightblue;
     border-radius: 5px;
 }
+/*******************************************************************/
 /* End Header Page */
+/*******************************************************************/
 /* Start Home Page*/
+/*******************************************************************/
 .home{
     background: url(homeBckgrd.jpg);
     background-size: cover;
@@ -72,7 +98,9 @@ li a:hover {
     margin-bottom: 0;
     font-size: x-large;
 }
+/*******************************************************************/
 /* End Home Page*/
+/*******************************************************************/
 .turkey, .cat, .chicken, .bee{
     margin: auto;
     text-align: center;
@@ -81,10 +109,35 @@ li a:hover {
     padding: 20px;
     max-height: 300px;
 }
+/*******************************************************************/
+/*Start Flip Image*/
+/*******************************************************************/
+/*.flip {*/
+    /*height: 350px;*/
+    /*width: 300px;*/
+    /*margin: 0 auto;*/
+/*}*/
+/*.flip img {*/
+    /*width: auto;*/
+    /*!*width: 300px;*!*/
+    /*height: auto;*/
+/*}*/
+/*.flip .back {*/
+    /*background: #2184cd;*/
+    /*color: #fff;*/
+    /*text-align: center;*/
+/*}*/
+/*******************************************************************/
+/*End Flip Image*/
+/*******************************************************************/
+
 .turkey img:hover, .cat img:hover, .chicken img:hover, .bee img:hover{
     transform: scale(2,2);
 }
+
+/*******************************************************************/
 /* Start Garden Page */
+/*******************************************************************/
 .garden p{
     margin: 10px;
 }
@@ -94,7 +147,9 @@ li a:hover {
     height: 100%;
     text-align: center;
 }
+/*******************************************************************/
 /* cycle-slideshow */
+/*******************************************************************/
 .cycle-slideshow{
     position: relative;
     margin: auto;
@@ -121,8 +176,11 @@ li a:hover {
     opacity: .5;
     filter: alpha(opacity=50);
 }
+/*******************************************************************/
 /* End Garden Page */
+/*******************************************************************/
 /* Start shop Page */
+/*******************************************************************/
 .shop{
     width: 80%;
     margin: auto;
@@ -162,8 +220,11 @@ li a:hover {
     font-size: x-large;
     padding: 20px;
 }
+/*******************************************************************/
 /* End shop Page */
+/*******************************************************************/
 /* Start contact Page */
+/*******************************************************************/
 form.contact{
     display: flex;
     flex-direction: column;
@@ -199,4 +260,6 @@ fieldset.error .errorMsg, fieldset.emailError .emailErrorMsg{
 fieldset.error input{
     border: 1px solid red;
 }
+/*******************************************************************/
 /* End contact Page */
+/*******************************************************************/

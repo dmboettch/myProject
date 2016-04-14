@@ -5,6 +5,7 @@
 <head>
     <!-- include head.ejs file-->
     <% include ../partials/head.ejs%>
+    <script src="js/imageFlip.js"></script>
 </head>
 <body>
 <header>
@@ -13,26 +14,36 @@
 </header>
 <h1 class="pageTitle"><%= pageTitle %></h1>
 <div class="cat">
+    <p>Don't let these cuties fool you... They're great mousers!</p>
+        <!--<div class="flip">-->
+            <!--<div class="front">-->
+                <!--<img src="img/catPics/catBasket.jpg" alt="Cat in a Basket"/>-->
+            <!--</div>-->
+            <!--<div class="back">-->
+                <!--<h3>Text goes here!</h3>-->
+            <!--</div>-->
+        <!--</div>-->
     <div>
-    <a href="#"><img src="css/catPics/catBasket.jpg" alt="Cat in a Basket"/></a>
-    <a href="#"><img src="css/catPics/threeCats.jpg" alt="My Three Cats"/></a>
-    <a href="#"><img src="css/catPics/catSoda.jpg" alt="Cat in a Soda Container"/></a>
+        <a href="#"><img src="img/catPics/catBasket.jpg" alt="Cat in a Basket"/></a>
+    <a href="#"><img src="img/catPics/threeCats.jpg" alt="My Three Cats"/></a>
+    <a href="#"><img src="img/catPics/catSoda.jpg" alt="Cat in a Soda Container"/></a>
     </div>
     <div>
-        <a href="#"><img src="css/catPics/kittens.jpg" alt="Kittens"/></a>
-        <a href="#"><img src="css/catPics/newKittens.jpg" alt="New Born Kittens"/></a>
-        <a href="#"><img src="css/catPics/fourWeeks.jpg" alt="Four Week Old Kittens"/></a>
+        <a href="#"><img src="img/catPics/kittens.jpg" alt="Kittens"/></a>
+        <a href="#"><img src="img/catPics/newKittens.jpg" alt="New Born Kittens"/></a>
+        <a href="#"><img src="img/catPics/fourWeeks.jpg" alt="Four Week Old Kittens"/></a>
     </div>
     <div>
-    <a href="#"><img src="css/catPics/sleepingCats.jpg" alt="Sleeping Cats"/></a>
-    <a href="#"><img src="css/catPics/catNap.jpg" alt="Cats Taking a Nap"/></a>
+    <a href="#"><img src="img/catPics/sleepingCats.jpg" alt="Sleeping Cats"/></a>
+    <a href="#"><img src="img/catPics/catNap.jpg" alt="Cats Taking a Nap"/></a>
     </div>
     <div>
-    <a href="#"><img src="css/catPics/catChair.jpg" alt="Favorite Cat Chair"/></a>
+    <a href="#"><img src="img/catPics/catChair.jpg" alt="Favorite Cat Chair"/></a>
     </div>
 </div>
 <footer>
     <% include ../partials/footer %>
 </footer>
+<script type="text/javascript" src="js/jquery.flip.min.js"></script>
 </body>
 </html>

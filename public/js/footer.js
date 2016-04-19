@@ -15,5 +15,5 @@ $(function(){
     })
 
     //Copyright
-    $(".copy").append("<p>Alltrue Farm &copy; 2016 - " + (new Date).getFullYear() + "</p>");
+    $(".copy").append("<p>Alltrue Farm " + (new Date).getFullYear() + "</p>");
 });

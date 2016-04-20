@@ -3,7 +3,8 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: #add8e6;
@@ -56,6 +57,11 @@ footer{
     margin: 0;
     padding: 15px;
 }
+@media (max-width: 620px) {
+    .farm{
+        text-align: center
+    }
+}
 ul{
     display: flex;
     flex-wrap: wrap;
@@ -86,17 +92,35 @@ li a:hover {
 /* Start Home Page*/
 /*******************************************************************/
 .home{
-    background: url(homeBckgrd.jpg);
-    background-size: cover;
-    height: 100%;
     text-align: center;
+    position: relative;
+    height: 100%;
 }
-.home p, .home h2{
+.home:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(homeBckgrd.jpg);
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    z-index: -1;
+    background-size: cover;
+}
+.home p{
     margin-left: auto;
     margin-right: auto;
     width: 70%;
     margin-bottom: 0;
     font-size: x-large;
+}
+@media (max-width: 1400px){
+    .home p{
+        color: white;
+        width: 90%;
+    }
 }
 /*******************************************************************/
 /* End Home Page*/
@@ -104,11 +128,25 @@ li a:hover {
 .turkey, .cat, .chicken, .bee{
     margin: auto;
     text-align: center;
+    width: 100%;
 }
 .turkey img, .cat img, .chicken img, .bee img{
     padding: 20px;
     max-height: 300px;
 }
+@media (max-width: 440px) {
+    .turkey img, .cat img, .chicken img, .bee img{
+        padding: 5px;
+        max-height: 125px;
+    }
+}
+/*iPad*/
+/*@media (min-width: 321px) and (max-width: 800px) {*/
+    /*.turkey img, .cat img, .chicken img, .bee img{*/
+        /*padding: 5px;*/
+        /*max-height: 250px;*/
+    /*}*/
+/*}*/
 /*******************************************************************/
 /*Start Flip Image*/
 /*******************************************************************/
@@ -130,11 +168,13 @@ li a:hover {
 /*******************************************************************/
 /*End Flip Image*/
 /*******************************************************************/
-
-.turkey img:hover, .cat img:hover, .chicken img:hover, .bee img:hover{
-    transform: scale(2,2);
-}
-
+/*Start enlarge picture on hover*/
+/*******************************************************************/
+/*.turkey img:hover, .cat img:hover, .chicken img:hover, .bee img:hover{*/
+    /*transform: scale(2,2);*/
+/*}*/
+/*******************************************************************/
+/*End enlarge picture on hover*/
 /*******************************************************************/
 /* Start Garden Page */
 /*******************************************************************/

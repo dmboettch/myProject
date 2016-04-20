@@ -11,7 +11,10 @@ body{
     color: darkgreen;
     font-family: sans-serif;
     font-size: large;
-    position: absolute;
+    position: relative;
+}
+html{
+    height: 100%;
 }
 /*******************************************************************/
 /*Start Footer*/
@@ -35,6 +38,10 @@ footer{
     background-color: #72b3e6;
     text-align: center;
     font-size: small;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 /*******************************************************************/
 /*End Footer*/
@@ -109,17 +116,16 @@ li a:hover {
     opacity: .9;
     z-index: -1;
     background-size: cover;
+    background-color: black;
 }
 .home p{
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 70%;
-    margin-bottom: 0;
     font-size: x-large;
 }
-@media (max-width: 1400px){
+@media (max-width: 1500px){
     .home p{
-        color: white;
+        color: antiquewhite;
         width: 90%;
     }
 }
@@ -141,13 +147,6 @@ li a:hover {
         max-height: 125px;
     }
 }
-/*iPad*/
-/*@media (min-width: 321px) and (max-width: 800px) {*/
-    /*.turkey img, .cat img, .chicken img, .bee img{*/
-        /*padding: 5px;*/
-        /*max-height: 250px;*/
-    /*}*/
-/*}*/
 /*******************************************************************/
 /*Start Flip Image*/
 /*******************************************************************/
@@ -236,8 +235,12 @@ li a:hover {
     padding: 10px;
     min-height: 100px;
     display: flex;
-    justify-content:space-around;
     align-items: center;
+}
+@media (max-width: 975px){
+    .shopPics{
+        flex-direction: column;
+    }
 }
 .shopTitle, .price {
     text-transform: uppercase;
@@ -251,8 +254,10 @@ li a:hover {
     float: left;
     padding: 20px;
 }
-.description{
-    text-align: center;
+@media (max-width: 975px) {
+    .shopPics img{
+        max-width: 200px;
+    }
 }
 .content{
     display: flex;
@@ -260,6 +265,9 @@ li a:hover {
     margin: auto;
     font-size: x-large;
     padding: 20px;
+}
+.description{
+    text-align: center;
 }
 /*******************************************************************/
 /* End shop Page */

@@ -226,6 +226,11 @@ li a:hover {
     margin: auto;
     text-align: center;
 }
+@media (max-width: 970px){
+    .shop{
+        font-size: small;
+    }
+}
 .shop p{
     margin: 10px;
 }
@@ -265,6 +270,11 @@ li a:hover {
     margin: auto;
     font-size: x-large;
     padding: 20px;
+}
+@media (max-width: 970px){
+    .content{
+        font-size: small;
+    }
 }
 .description{
     text-align: center;

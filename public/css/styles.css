@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@ body{
     position: relative;
 }
 html{
-    height: 100%;
+    /*height: 100%;*/
 }
 /*******************************************************************/
 /*Start Footer*/
@@ -102,22 +102,24 @@ li a:hover {
 .home{
     text-align: center;
     position: relative;
-    height: 100%;
-}
-.home:after{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     background: url(homeBckgrd.jpg);
-    width: 100%;
-    height: 100%;
-    opacity: .9;
-    z-index: -1;
     background-size: cover;
-    background-color: black;
+    /*height: 100vh;*/
 }
+/*.home:after{*/
+    /*content: '';*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*background: url(homeBckgrd.jpg);*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*opacity: .9;*/
+    /*z-index: -1;*/
+    /*background-size: cover;*/
+    /*background-color: black;*/
+/*}*/
 .home p{
     margin: auto;
     width: 70%;
@@ -128,6 +130,9 @@ li a:hover {
         color: antiquewhite;
         width: 90%;
     }
+    /*.home{*/
+        /*height: 100vh;*/
+    /*}*/
 }
 /*******************************************************************/
 /* End Home Page*/
@@ -182,9 +187,9 @@ li a:hover {
     margin: 10px;
 }
 .garden{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*height: 100%;*/
     text-align: center;
 }
 /*******************************************************************/
@@ -290,7 +295,7 @@ form.contact{
     align-items: center;
 }
 .contactPage, .thankYou{
-    height: 100vh;
+    /*height: 100vh;*/
 }
 .contactText, .thankYou p{
     text-align: center;

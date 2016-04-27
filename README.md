@@ -12,6 +12,8 @@ Adding css media queries so it is legible on mobile devices.
 
 Flip images on one of the pages.
 
+Resize images.
+
 Fix reset and errors on contact page.
 
 Keyboard hides input boxes on contact page.
